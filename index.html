@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Mạnh Cường Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="javascript/portfolio.js" defer></script>
+    <audio id="testbgm" src="howl.mp3" loop="true" preload="auto" autoplay="true"  style="display: none;"></audio>
+</head>
+<body>
+    <div class="marquee">
+        <div> ✧ Welcome to Cuong's Portfolio Webpage ✧ </div>
+    </div>
+
+    <div class="container">
+        <nav>
+            <a href="#" id="aboutMeBtn">About me</a>
+            <a href="#" id="photo">Photos</a>
+            <a href="#" id="contactMeBtn">Contact me</a>
+        </nav>
+
+        <div id="content">
+            <br><br><br><br><br>
+            <h1> Chào cả nhà thân iu của Cường</h1>
+            <h2>   </h2>
+            <h3>   </h3>
+        </div>
+    </div>
+
+    <section id="aboutMe" class="hidden">
+        <h1>Something about me </h1>
+        <p>Hi, mọi người mình là John Cường, tên thật của mình là Phạm Mạnh Cường, mọi người còn hay gọi mình là John Park và mình còn được mọi người biết đến với nhiều tài năng như chơi game giỏi và quản lý công việc rất logic. Mình chả có gì đặc biệt ngoài việc lấy vợ tuổi 20 và mọi người có thể xem hình của mình ở phần Photos
+    </section>
+
+    <section id="Photos" class="hidden">
+        <h1>My Photos</h1>
+        <img src="images/avatar.jpg" class="img-responsive" alt=""><br>
+        <p>Đây là mình nè </p>
+        <img src="images/z5725243719820_4fa108c7e544fbe287990f911fce658b.jpg" class="img-responsive" alt=""><br>
+        <p>Đây là ảnh cưới của mình nè</p>
+        <img src="images/z5725243719787_b1225303e36b866d5646b10fc4608604.jpg" class="img-responsive" alt="">
+        <p>Hạnh Phúc he :></p><br>
+        <img src="images/1NHA1127.JPG" class="img-responsive" alt="">
+        <p>Tụi mình đã có mối tình 2 năm 6 tháng và, khởi đầu hành trình mới bằng một đám cưới viên mãn</p>
+    </section>
+
+    <section id="contactMe" class="hidden">
+        <br><br>
+        <h2>Contact me</h2>
+        <div class="contact">
+            <form>
+                <br><br>
+                <label for="ho_va_ten">Full name:</label>
+                <input type="text" id="ho_va_ten" name="ho_va_ten"><br><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="message">Leave your message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <span id="success_message" style="color: green;"></span><br>
+                <div id="buttons">
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </div>
+                <p>Contact me below this icon</p> 
+                <a href="https://www.facebook.com/profile.php?id=100005683668837">
+                    <img src="images/62594-logo-computer-facebook-icon-icons-free-photo-png.png" class="icon" alt="fb icon">
+                </a>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Cường Đẹp Trai | 2200009907@nttu.edu.vn</p>
+    </footer>
+</body>
+</html>
